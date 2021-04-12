@@ -1,0 +1,27 @@
+.appointmentStyle{
+    margin: 0px auto;
+    height: 400px;
+    position: relative;
+    background-image: url('../../images/appoinment.png');
+    background-repeat: no-repeat;
+    background-size:200%;
+    background-position: center center ;
+    padding:0px 8px;
+    color: white;
+}
+.appointmentStyle::before {
+    height:100%;
+    width: 100%;
+    content:' ';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0px;
+    background: rgb(36, 41, 73);
+    opacity: 0.9;
+}
+.appointmentStyle img{
+    height: 530px;
+    width: 520px;
+    transform: translateY(-130px);
+}
