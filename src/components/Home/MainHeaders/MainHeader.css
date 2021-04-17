@@ -1,0 +1,12 @@
+ .mainHeader button {
+    background-image:linear-gradient(to left, #19D3B1,#11D0E0);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600px;
+    border: 1px solid rgb(250, 246, 240);
+}
+
+
+
+/*  */

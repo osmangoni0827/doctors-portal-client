@@ -6,7 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.btn-brand{
+  background-image:linear-gradient(to left, #19D3B1,#11D0E0);
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 22px;
+  font-weight: 600px;
+  border: 1px solid rgb(250, 246, 240);
+}
+.brand-text{
+  color: #5FC7C7;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
